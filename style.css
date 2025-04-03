@@ -58,6 +58,13 @@ header {
 .job-details {
     display: flex;
     flex-direction:column;
+    justify-content: center;
+}
+
+.logo-items {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .badges {
@@ -75,7 +82,7 @@ header {
 
 }
 
-.h3 {
+.comp {
     font-size: 12px;
     font-weight: bold;
     padding-left: 0%;
@@ -96,7 +103,7 @@ header {
 }
 
 .job-title {
-    margin: 5px 0;
+    margin: 0px 0;
     display: block;
     font-size: 16px;
     padding-top: 10px;
@@ -117,7 +124,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    max-width: 100dvh;
+    max-width: 150dvh;
     justify-content: flex-end;
     font-size: 10px;
 }

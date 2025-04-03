@@ -20,10 +20,12 @@ function displayJobs(jobs) {
                         <img src="${job.logo}" alt="${job.company} logo" class="job-logo">
                     </div>
                     <div class="job-details">
-                        <h3>${job.company}</h3>
-                        <div class="badges">
-                          ${job.new ? `<span class="badge new">NEW!</span>` : ""}
-                          ${job.featured ? `<span class="badge featured">FEATURED</span>` : ""}
+                        <div class="logo-items">
+                            <span class='comp'>${job.company}</span>
+                            <div class="badges">
+                            ${job.new ? `<span class="badge new">NEW!</span>` : ""}
+                            ${job.featured ? `<span class="badge featured">FEATURED</span>` : ""}
+                            </div>
                        </div>
                         <h2 class="job-title">${job.position}</h2>
                         <p class="job-info">${job.postedAt} • ${job.contract} • ${job.location}</p>
